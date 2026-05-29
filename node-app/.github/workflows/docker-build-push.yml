@@ -1,7 +1,10 @@
 name: Build & Push to Dockerhub
 
 on:
-   workflow-dispatch:
+   push:
+       branches:
+       - main
+       - master
 
 jobs:
   docker:
