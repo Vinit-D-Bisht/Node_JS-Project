@@ -9,8 +9,8 @@ Simple Node.js application running with MongoDB using Docker Compose.
 MONGO_INITDB_ROOT_USERNAME
 MONGO_INITDB_ROOT_PASSWORD
  
-#To run
+# To run
 docker compose up
 
-#To stop
+# To stop
 docker compose down
